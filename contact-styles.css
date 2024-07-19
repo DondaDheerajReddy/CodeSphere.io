@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(13 18 36);
+  height: 100vh;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 190px;
+  margin-bottom: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  gap: 40px;
+  padding-bottom: 25px;
+  padding-top: 20px;
+  padding-right: 200px;
+  font-family: Poppins, Montserrat, sans-serif;
+}
+
+header a {
+  text-decoration: none;
+  color: #bbb7b7;
+  font-weight: 450;
+}
+
+.logo {
+  font-family: Montserrat, poppins;
+  font-size: 1.2rem;
+}
+
+.main_heading {
+  text-align: center;
+  font-size: 3.2rem;
+  color: white;
+  font-family: poppins, montserrat, sans-serif;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+label {
+  color: #e0dbdb;
+  font-size: 1.2rem;
+  font-family: poppins, montserrat, sans-serif;
+}
+input {
+  padding: 12px 10px;
+  padding-right: 125px;
+  width: 300px;
+  background-color: #636262;
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  outline: none;
+}
+
+header a:hover {
+  color: white;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  color: white;
+  background-color: rgb(252, 119, 179);
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  font-family: poppins, sans-serif;
+  border-radius: 25px;
+  border: none;
+  margin-top: 10px;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+textarea {
+  resize: vertical;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  border: none;
+  background-color: #636262;
+  outline: none;
+  padding-left: 7px;
+  padding-top: 10px;
+  color: white;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: 0 0 2px 1px rgb(237, 237, 237);
+}
+
+footer {
+  color: #bbb7b7;
+  font-family: poppins, montserrat, sans-serif;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 185px;
+}

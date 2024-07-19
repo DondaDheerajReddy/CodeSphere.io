@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, Montserrat, sans-serif;
+}
+body {
+  background-color: rgb(13 18 36);
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 200px;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: -250px;
+}
+
+input {
+  font-size: 1.3rem;
+  padding: 12px 15px;
+  text-align: center;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #089ee5;
+  box-shadow: 0 0 0 1.5px white;
+  border-radius: 2px;
+}
+.btn {
+  width: 100%;
+  margin-top: 5px;
+  padding: 12px;
+  font-size: 1.2rem;
+  border: none;
+  background-color: white;
+  color: #089ee5;
+  width: 284.4px;
+}
+
+input:focus {
+  box-shadow: 0 0 5px 2px #007bfe;
+}
+.btn:hover {
+  background-color: #089ee5;
+  color: white;
+}
+
+input::placeholder {
+  color: rgb(207, 204, 204);
+}

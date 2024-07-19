@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #0d1224;
+  height: 100vh;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 190px;
+  margin-bottom: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  gap: 40px;
+  padding-bottom: 25px;
+  padding-top: 20px;
+  padding-right: 200px;
+  font-family: Poppins, Montserrat, sans-serif;
+}
+
+header a {
+  text-decoration: none;
+  color: #bbb7b7;
+  font-weight: 450;
+}
+
+.logo {
+  font-family: Montserrat, poppins;
+  font-size: 1.2rem;
+}
+
+.banner_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.Para1 {
+  font-family: montserrat;
+  color: white;
+  width: 50%;
+  font-size: 1.2rem;
+  display: inline;
+  float: right;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.Para2 {
+  font-family: montserrat;
+  color: white;
+  width: 50%;
+  font-size: 1.2rem;
+  display: inline;
+  float: left;
+}
+.Para3 {
+  font-family: montserrat;
+  color: white;
+  width: 50%;
+  font-size: 1.2rem;
+  display: inline;
+  float: right;
+  margin-top: 30px;
+}
+.about {
+  margin-top: 50px;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  height: fit-content;
+}
+.avatar {
+  width: 430px;
+}
+
+hr {
+  border-top: 0.1px dotted rgb(126, 126, 126);
+}
+
+.title1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.para1 {
+  color: #cfcbcb;
+  font-weight: 450;
+  font-family: poppins, sans-serif;
+}
+
+header a:hover {
+  color: white;
+}
+
+.button {
+  color: white;
+  background-color: rgb(252, 119, 179);
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  font-family: poppins, sans-serif;
+  border-radius: 25px;
+  border: none;
+  margin-top: 10px;
+}
+
+.button a:hover,
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.head * {
+  text-align: center;
+  color: white;
+  font-family: poppins, sans-serif;
+}
+.head h4 {
+  font-weight: 350;
+  color: #ff00ff;
+  letter-spacing: 1.5px;
+  margin-top: 20px;
+}
+.head h3 {
+  font-weight: 350;
+  letter-spacing: 0.7px;
+}
+
+footer {
+  color: #bbb7b7;
+  font-family: poppins, montserrat, sans-serif;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 20px;
+}

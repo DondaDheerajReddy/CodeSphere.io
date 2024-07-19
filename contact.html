@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="contact-styles.css" />
+    <title>CodeSphere</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo left">
+        <a href="home.html" style="color: white">CodeSphere</a>
+      </div>
+      <nav>
+        <div class="right">
+          <a href="home.html">Home</a>
+        </div>
+        <div class="right"><a href="courses.html">Courses</a></div>
+        <div class="right">
+          <a href="contact.html" style="color: white">Contact</a>
+        </div>
+        <div class="right"><a href="subscribe.html">Subscribe</a></div>
+      </nav>
+    </header>
+
+    <h1 class="main_heading">Contact Us</h1>
+
+    <div class="container">
+      <div class="form">
+        <label for="email">Your email:</label><br />
+        <input
+          type="email"
+          name="email"
+          required
+          spellcheck="false"
+        /><br /><br />
+        <label for="message">Your message:</label><br />
+        <textarea
+          name="message"
+          rows="5"
+          cols="39"
+          required
+          spellcheck="false"
+        ></textarea
+        ><br />
+        <button class="btn">Send</button>
+      </div>
+    </div>
+
+    <footer>&copy; 2024 DondaDheerajReddy CodeSphere.io</footer>
+    <script>
+      document.querySelector(".btn").addEventListener("click", function () {
+        alert("The Message is sent.");
+      });
+    </script>
+  </body>
+</html>
